@@ -116,7 +116,7 @@
             {
                 "name": "Take Any Item (Desert)",
                 "access_rules": [
-                    "[$weapons],bomb"
+                    "{poolfalse}", "pooltrue,[$weapons],bomb"
                 ],
                 "sections": [
                     {
@@ -143,7 +143,7 @@
             {
                 "name": "Take Any Item (Shore)",
                 "access_rules": [
-                    "[$weapons],bomb"
+                    "{poolfalse}", "pooltrue,[$weapons],bomb"
                 ],
                 "sections": [
                     {
@@ -170,8 +170,9 @@
             {
                 "name": "Take Any Item (Bush)",
                 "access_rules": [
-                    "[$weapons],candle",
-                    "[$weapons],candle2"
+                    "{poolfalse}",
+                    "pooltrue,[$weapons],candle",
+                    "pooltrue,[$weapons],candle2"
                 ],
                 "sections": [
                     {
@@ -198,7 +199,7 @@
             {
                 "name": "Take Any Item (Northeast Raft Spot)",
                 "access_rules": [
-                    "[$weapons],raft"
+                    "{poolfalse}", "pooltrue,[$weapons],raft"
                 ],
                 "sections": [
                     {
